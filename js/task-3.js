@@ -1,3 +1,5 @@
+"use strict"
+
 function getElementWidth(content, padding, border) {
     const getElementWidth = content + (2 * padding) + (2 * border);
     return (Number.parseFloat(getElementWidth));
